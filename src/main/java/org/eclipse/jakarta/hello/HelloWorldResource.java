@@ -142,6 +142,7 @@ public class HelloWorldResource {
              else  if((table.equals("t3")&& opr.equals("updateinfo")))
              {
             	 System.out.println("t3");
+				  System.out.println("t3");
             	 res =  f.tbl_updateinfo(cr);
     //        	 logger.info("Res : "+table + " Operation -"+opr+"-"+res);
              }
